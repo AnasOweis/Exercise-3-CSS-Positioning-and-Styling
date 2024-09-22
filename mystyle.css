@@ -1,0 +1,86 @@
+
+h1::first-letter {
+  color: #b43df996;
+  font-size: xx-large;
+
+}
+h2.About Me::before{
+  content: url(img/softwareGIF.png);
+}
+img#softwareGIF{
+ 
+  margin: 0;
+  padding: 0;  
+  width: 100%;  
+  height: 300px;      
+  object-fit: cover;
+  
+    top: 0;
+    left: 0;
+  
+}
+
+
+
+body {
+    background-color: #0c0f27;
+    color:whitesmoke;
+    
+  }
+
+    
+  h1 {
+    color :#DCE9FA;
+    text-align: center;
+  }
+
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  a:link {
+    color:#06fffdab;
+  }
+  
+ 
+  a:visited {
+    color: #c5a1ff;
+  }
+  
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  a:active {
+    color: blue;
+  }
+
+ div#contact{
+
+background-color: #3b4857;
+  }
+ nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+ nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px; 
+ }
+nav ul  a {
+  text-decoration: none;
+  padding: 10px 20px;
+ 
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
